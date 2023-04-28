@@ -1,7 +1,7 @@
 
 ad note. 1
 
-fixtures można implementować bezprośrednio używając gherkina co jest chyba lepszą praktyką, na potrzeby zadania fixtures znajdują w jsonach w fixtures
+dane testowe można implementować bezprośrednio używając gherkina co jest chyba lepszą praktyką, na potrzeby zadania dane testowe znajdują w jsonach w pliku fixtures cypressowym
 
 
 ad note 2. 
