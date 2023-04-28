@@ -1,3 +1,28 @@
+
+ad note. 1
+
+fixtures można implementować bezprośrednio używając gherkina co jest chyba lepszą praktyką, na potrzeby zadania fixtures znajdują w jsonach w fixtures
+
+
+ad note 2. 
+
+ze względu na małą ilość czasu, w sytuacji kiedy na hover, dropdown menu nie pojawiało się chociaż pewnie powinno, odpusciłem i poprostu kliknąłem hidden element 
+
+nie stworzyłem pipeline, ale raczej nie byłby to wielki problem
+
+Pozdrawiam
+
+
+Tomasz Piątek
+
+
+///////
+
+
+
+
+
+
 ## 💻 Pre-requisites
 
 Before you use this project you need to have Node.js installed in your computer.
