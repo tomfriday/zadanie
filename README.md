@@ -6,7 +6,7 @@ dane testowe można implementować bezprośrednio używając gherkina co jest ch
 
 ad note 2. 
 
-ze względu na małą ilość czasu, w sytuacji kiedy na hover, dropdown menu nie pojawiało się chociaż pewnie powinno, odpusciłem i poprostu kliknąłem hidden element 
+ze względu na małą ilość czasu, w sytuacji kiedy na hover, dropdown menu nie pojawiało się chociaż pewnie powinno, odpusciłem i poprostu kliknąłem hidden element (zad.3) 
 
 nie stworzyłem pipeline, ale raczej nie byłby to wielki problem
 
