@@ -6,7 +6,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        uses: node app.js
+        run: npm install
+        run: node app.js
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
