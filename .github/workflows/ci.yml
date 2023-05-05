@@ -1,6 +1,13 @@
 name: End-to-end tests
 on: push
 jobs:
+ build-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dependencies
+        run: npm install
+      - name: Start Application
+        run: node app.js
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
@@ -11,6 +18,4 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v5
-        with:
-        build: npm install
-        start: node app.js
+      
