@@ -9,8 +9,10 @@ jobs:
     steps:
       - name: Install Dependencies
         run: npm install
+        working-directory: ./zadanie
       - name: Start Application
         run: node app.js
+        working-directory: ./zadanie
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
