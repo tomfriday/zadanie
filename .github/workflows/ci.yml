@@ -16,4 +16,3 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           start: node app.js
-          working-directory: ./..
