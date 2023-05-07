@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: actions/checkout
+        uses: actions/checkout@v3
+        with:
+          working-directory: ./zadanie
 
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
@@ -16,3 +18,4 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           start: node app.js
+          working-directory: ./zadanie
