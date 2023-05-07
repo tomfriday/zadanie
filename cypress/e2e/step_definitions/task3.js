@@ -26,7 +26,9 @@ When('From Dla Studenta dropdown menu select Samorząd Studencki', () => {
 Then(
   'On the first place it should be name of Tomasz Michalik and information about II year of study',
   () => {
-    wskzMainPage.checkStudentInfo(studentInfo.studentCouncil.name)
-    wskzMainPage.checkStudentInfo(studentInfo.studentCouncil.yearInfo)
+    wskzMainPage.checkStudentInfo(
+      studentInfo.studentCouncil.yearInfo,
+      studentInfo.studentCouncil.name
+    )
   }
 )
