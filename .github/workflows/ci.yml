@@ -15,4 +15,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-        start: node app.js
+          start: node app.js
