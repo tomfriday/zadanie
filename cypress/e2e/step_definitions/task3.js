@@ -1,7 +1,7 @@
 import { Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps'
 import { newPage } from '../../pages/NewPage'
 import { wskzMainPage } from '../../pages/WskzMainPage'
-import studentInfo from '../../fixtures/StudentInfo.json'
+import studentInfo from '../../fixtures/studentInfo.json'
 
 Given('Visit new-page', () => {
   cy.visit('/' + '/new-page')
