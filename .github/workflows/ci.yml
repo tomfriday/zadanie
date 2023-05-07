@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          working-directory: ./zadanie
+          working-directory: ./..
 
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
@@ -18,4 +18,4 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           start: node app.js
-          working-directory: ./zadanie
+          working-directory: ./..
