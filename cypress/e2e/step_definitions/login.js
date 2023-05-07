@@ -5,7 +5,7 @@ import { loginPage } from '../../pages/LoginPage.js'
 Given('Visit login page', () => {
   cy.visit('/')
 })
-When('Provides correct credentials, and submit login', () => {
+When('Type correct credentials, and submit login', () => {
   loginPage.typeUsername(credentials.validCredentials.username)
   loginPage.typePassword(credentials.validCredentials.password)
   loginPage.submitLogin()
@@ -21,7 +21,7 @@ Then('Should see homepage with success information', () => {
 Given('Visit login page', () => {
   cy.visit('/')
 })
-When('Provides not correct credentials, and submit login', () => {
+When('Type not correct credentials, and submit login', () => {
   loginPage.typeUsername(credentials.failCredentials.username)
   loginPage.typePassword(credentials.failCredentials.password)
   loginPage.submitLogin()
