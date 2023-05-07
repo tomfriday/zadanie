@@ -4,15 +4,6 @@ on:
   push:
 
 jobs:
-  build-and-run:
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Install Dependencies
-        run: npm install
-        working-directory: ../.
-      - name: Start Application
-        run: node app.js
-        working-directory: ../.
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
@@ -23,3 +14,5 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v5
+        with:
+        start: node app.js
