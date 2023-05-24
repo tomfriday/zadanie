@@ -1,25 +1,4 @@
 
-ad note. 1
-
-dane testowe można implementować bezprośrednio używając gherkina co jest chyba lepszą praktyką, na potrzeby zadania dane testowe znajdują w jsonach w pliku fixtures cypressowym
-
-
-ad note 2. 
-
-ze względu na małą ilość czasu, w sytuacji kiedy na hover, dropdown menu nie pojawiało się chociaż pewnie powinno, odpusciłem i poprostu kliknąłem hidden element (zad.3) 
-
-nie stworzyłem pipeline, ale raczej nie byłby to wielki problem
-
-Pozdrawiam
-
-
-Tomasz Piątek
-
-
-///////
-
-
-
 
 
 
