@@ -12,3 +12,4 @@ module.exports = defineConfig({
     specPattern: 'UITests/cypress/e2e/features/*.feature'
   }
 })
+w
