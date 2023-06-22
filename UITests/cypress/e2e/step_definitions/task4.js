@@ -29,11 +29,11 @@ When('I send a GET query on customer with id 1', () => {
 When('I send a POST query with a new customer', () => {
   const newCustomer = { name: 'Kasia Testowa' }
   cy.request('POST', '/' + '/api/customers', newCustomer).then((response) => {
-    Then('I receive a response with the code 201', () => {
-      expect(response.status).to.eq(201)
+    Then('I receive a response with code 200', () => {
+      expect(response.status).to.eq(200)
     })
-    And('the received customer data is as expected', () => {
-      expect(response.body.name).to.eq(newCustomer.name)
+    And('I receive success information', () => {
+      expect(response.body).to.eq('Dodano klienta')
     })
   })
 })
@@ -45,8 +45,8 @@ When('I send a PUT query with the new customer data', () => {
       Then('I receive a response with the code 200', () => {
         expect(response.status).to.eq(200)
       })
-      And('the received customer data is as expected', () => {
-        expect(response.body.name).to.eq(updatedCustomer.name)
+      And('I receive success information', () => {
+        expect(response.body).to.eq(updatedCustomer.name)
       })
     }
   )

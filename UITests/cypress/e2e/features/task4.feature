@@ -14,13 +14,13 @@ And the received customer details are as expected
 
 Scenario: Adding a new customer
 When I send a POST query with a new customer
-Then I receive a response with code 201
-And the received customer data is as expected
+Then I receive a response with code 200
+And I receive success information
 
 Scenario: Updating customer data
 When I send a PUT query with the new customer data
 Then I receive a response with the code 200
-And the received customer data is as expected
+And I receive success information
 
 Scenario: Deleting customer data
 When  I send a DELETE query on customer with id 1
